@@ -1,6 +1,4 @@
 public with sharing class UpsertRecords {
-  
-  
         @InvocableMethod
         public static List<Results> execute (List<Request> requestList) {
             System.debug('entering Upsert');
