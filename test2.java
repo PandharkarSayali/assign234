@@ -43,8 +43,7 @@ public with sharing class UpsertRecords {
                 responseWrapper.add(response);
             }     
          
-            return responseWrapper;
-        
+            return responseWrapper
         }
     
         public class Request {
